@@ -1,0 +1,44 @@
+#root {
+    background-image: url(./back.jpeg);
+    background-size:100% 100%;
+}
+
+.logo {
+    margin-bottom: 1rem;
+}
+
+.logo span {
+    left: 30%;
+    position: relative;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+#normal_login {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#components-form-demo-normal-login .login-form {
+    max-width: 300px;
+}
+
+#components-form-demo-normal-login .login-form-forgot {
+    float: right;
+}
+
+#components-form-demo-normal-login .ant-col-rtl .login-form-forgot {
+    float: left;
+}
+
+.login-form-button {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
